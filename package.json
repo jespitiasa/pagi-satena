@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "npm": "^9.6.6",
+    "php": "^1.0.2"
+  }
+}
