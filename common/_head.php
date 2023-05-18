@@ -1,9 +1,16 @@
-<!-- https://fonts.google.com/ -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!-- https://getbootstrap.com/ -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- https://fontawesome.com/ -->
-<link href="fontawesome/css/all.min.css" rel="stylesheet" />
+<meta charset="UTF-8">
+<meta name="author" content="SATENA S.A.">
+<meta name="keywords" content="satena.com">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="../css/fontawesome.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style.css.map">
+<link rel="stylesheet" href="../css/owl.css">
+<!-- <link rel="stylesheet" href="../css/flex-slider.css"> -->

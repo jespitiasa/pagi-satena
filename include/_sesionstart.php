@@ -39,12 +39,4 @@
     }
     // llamamos a la url completa, esto se parametrizo para que se pudiese llamar los link de los estilos, scrip y subáginas
     include_once("_url.php");
-    // Consulta se el idiona selecionado. Si el idiona es espaoñal ingresa y se guarda la constante como "inicio", sino la constante se guarda "Home
-    if ($_SESSION['pagina']['web'] == 'Spanish') {
-        // Titulo en español
-        $title = "Inicio";
-    } else {
-        // Titulo en Ingles
-        $title = "Home";
-    }
 ?>
