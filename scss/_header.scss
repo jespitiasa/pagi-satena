@@ -1,0 +1,124 @@
+@import 'variables';
+
+/* --------------- Header Style ------------------- */
+
+header {
+	position: absolute;
+	z-index: 99999;
+	width: 100%;
+	background-color: transparent!important;
+	height: 80px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+header .navbar {
+	padding: 20px 0px;
+}
+
+.background-header .navbar {
+	padding: 10px 0px;
+}
+
+.background-header {
+	top: 0;
+	position: fixed;
+	background-color: $mywhite!important;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+
+.background-header .navbar-brand h2 {
+	color: $mywhite !important;
+}
+
+.background-header .navbar-nav a.nav-link {
+	color: $myblue!important;
+}
+
+.background-header .navbar-nav .nav-link:hover,
+.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .nav-link.current,
+.background-header .navbar-nav .nav-link.show,
+.background-header .navbar-nav .show>.nav-link {
+	color: $myyellow!important;
+}
+
+.navbar .navbar-brand {
+	float: 	left;
+	margin-top: 12px;
+	outline: none;
+}
+
+.navbar .navbar-brand h2 {
+	color: $mywhite;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	-webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.navbar .navbar-brand h2 em {
+	font-style: normal;
+	font-size: 16px;
+}
+
+#navbarResponsive {
+	z-index: 999;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+
+.navbar .navbar-nav .nav-item {
+	margin: 0px 15px;
+}
+
+.navbar .navbar-nav a.nav-link {
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	color: $mywhite;
+	transition: all 0.5s;
+	margin-top: 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.current,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+	color: $myyellow;
+	border-bottom: 3px solid $myyellow;
+}
+
+.navbar .navbar-toggler-icon {
+	background-image: none;
+}
+
+.navbar .navbar-toggler {
+	border-color: $mywhite;
+	background-color: $mywhite;	
+	height: 36px;
+	outline: none;
+	border-radius: 0px;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+
+.navbar .navbar-toggler-icon:after {
+	content: '\f0c9';
+	color: $myyellow;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'FontAwesome';
+}
+
+/* --------------- Fin Header Style --------------- */

@@ -1,170 +1,7 @@
-body {
-  font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-p {
-  margin-bottom: 0px;
-  font-size: 14px;
-  color: #666666;
-  line-height: 30px;
-}
-
-a {
-  text-decoration: none !important;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-}
-
-a.filled-button {
-  background-color: #a4c639;
-  color: #fff;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 12px 30px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-a.filled-button:hover {
-  background-color: #fff;
-  color: #a4c639;
-}
-
-a.border-button {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px 28px;
-  border-radius: 30px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-a.border-button:hover {
-  background-color: #fff;
-  color: #a4c639;
-}
-
-.section-heading {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-.section-heading h2 {
-  font-size: 36px;
-  font-weight: 600;
-  color: #1e1e1e;
-}
-
-.section-heading em {
-  font-style: normal;
-  color: #a4c639;
-}
-
-.section-heading span {
-  display: block;
-  margin-top: 15px;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: #666;
-  letter-spacing: 1px;
-}
-
-#preloader {
-  overflow: hidden;
-  background: #a4c639;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 9999999;
-  color: #fff;
-}
-
-#preloader .jumper {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  position: absolute;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-}
-
-#preloader .jumper > div {
-  background-color: #fff;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  position: absolute;
-  opacity: 0;
-  width: 50px;
-  height: 50px;
-  -webkit-animation: jumper 1s 0s linear infinite;
-  animation: jumper 1s 0s linear infinite;
-}
-
-#preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0.33333s;
-  animation-delay: 0.33333s;
-}
-
-#preloader .jumper > div:nth-child(3) {
-  -webkit-animation-delay: 0.66666s;
-  animation-delay: 0.66666s;
-}
-
-@-webkit-keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-@keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-/* Sub Header Style */
+/* --------------- Variables Style ------------------- */
+/* --------------- Fin Variables Style --------------- */
+/* --------------- Variables Style ------------------- */
+/* --------------- Fin Variables Style --------------- */
 .sub-header {
   background-color: #0066CD;
   height: 46px;
@@ -176,12 +13,12 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li {
-  border-left: 1px solid rgba(250, 250, 250, 0.3);
+  border-left: 1px solid #F5F5FA;
   padding: 0px 20px;
 }
 
 .sub-header ul.left-info li:last-child {
-  border-right: 1px solid rgba(250, 250, 250, 0.3);
+  border-right: 1px solid #F5F5FA;
 }
 
 .sub-header ul.left-info li i {
@@ -190,7 +27,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li a {
-  color: #fff;
+  color: #F5F5FA;
   font-size: 14px;
   font-weight: 600;
 }
@@ -204,15 +41,15 @@ a.border-button:hover {
   width: 46px;
   display: inline-block;
   text-align: center;
-  border-right: 1px solid rgba(250, 250, 250, 0.3);
+  border-right: 1px solid #F5F5FA;
 }
 
 .sub-header ul.right-icons li:first-child {
-  border-left: 1px solid rgba(250, 250, 250, 0.3);
+  border-left: 1px solid #F5F5FA;
 }
 
 .sub-header ul.right-icons li a {
-  color: #fff;
+  color: #F5F5FA;
   transition: all 0.3s;
 }
 
@@ -220,8 +57,9 @@ a.border-button:hover {
   opacity: 0.75;
 }
 
-/* Fin Sub Header Style */
-/* Header Style */
+/* --------------- Variables Style ------------------- */
+/* --------------- Fin Variables Style --------------- */
+/* --------------- Header Style ------------------- */
 header {
   position: absolute;
   z-index: 99999;
@@ -245,16 +83,16 @@ header .navbar {
 .background-header {
   top: 0;
   position: fixed;
-  background-color: #fff !important;
+  background-color: #F5F5FA !important;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .background-header .navbar-brand h2 {
-  color: #11304C !important;
+  color: #F5F5FA !important;
 }
 
 .background-header .navbar-nav a.nav-link {
-  color: #1e1e1e !important;
+  color: #11304C !important;
 }
 
 .background-header .navbar-nav .nav-link:hover,
@@ -262,7 +100,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show > .nav-link {
-  color: #a4c639 !important;
+  color: #EEDA12 !important;
 }
 
 .navbar .navbar-brand {
@@ -272,7 +110,7 @@ header .navbar {
 }
 
 .navbar .navbar-brand h2 {
-  color: #fff;
+  color: #F5F5FA;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
@@ -304,7 +142,7 @@ header .navbar {
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.5px;
-  color: #fff;
+  color: #F5F5FA;
   transition: all 0.5s;
   margin-top: 5px;
 }
@@ -314,8 +152,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show > .nav-link {
-  color: #a4c639;
-  border-bottom: 3px solid #a4c639;
+  color: #EEDA12;
+  border-bottom: 3px solid #EEDA12;
 }
 
 .navbar .navbar-toggler-icon {
@@ -323,8 +161,8 @@ header .navbar {
 }
 
 .navbar .navbar-toggler {
-  border-color: #fff;
-  background-color: #fff;
+  border-color: #F5F5FA;
+  background-color: #F5F5FA;
   height: 36px;
   outline: none;
   border-radius: 0px;
@@ -335,13 +173,16 @@ header .navbar {
 
 .navbar .navbar-toggler-icon:after {
   content: "\f0c9";
-  color: #a4c639;
+  color: #EEDA12;
   font-size: 18px;
   line-height: 26px;
   font-family: "FontAwesome";
 }
 
-/* Banner Style */
+/* --------------- Fin Header Style --------------- */
+/* --------------- Variables Style ------------------- */
+/* --------------- Fin Variables Style --------------- */
+/* --------------- Variables Style ------------------- */
 .img-fill {
   width: 100%;
   display: block;
@@ -412,7 +253,7 @@ header .navbar {
   text-align: center;
   font-size: 36px;
   font-family: "FontAwesome";
-  color: #FFF;
+  color: #F5F5FA;
   z-index: 5;
   outline: none;
   cursor: pointer;
@@ -431,7 +272,7 @@ header .navbar {
   text-align: center;
   font-size: 36px;
   font-family: "FontAwesome";
-  color: #FFF;
+  color: #F5F5FA;
   z-index: 5;
   outline: none;
   cursor: pointer;
@@ -460,7 +301,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #a4c639;
+  color: #EEDA12;
   animation: fadeOutRight 1s both;
 }
 
@@ -470,15 +311,15 @@ ul.slick-dots {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color: #FFF;
+  color: #F5F5FA;
   overflow: hidden;
   animation: fadeOutLeft 1s both;
 }
 
 .Modern-Slider .item p {
   max-width: 570px;
-  color: #fff;
-  font-size: 15px;
+  color: #F5F5FA;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 40px;
@@ -505,7 +346,7 @@ ul.slick-dots {
 }
 
 .Modern-Slider {
-  background: #000;
+  background: #F5F5FA;
 }
 
 /* ==== Slick Slider Css Ruls === */
