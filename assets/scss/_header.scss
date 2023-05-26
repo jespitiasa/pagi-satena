@@ -87,7 +87,7 @@
 }
 
 .header-area .main-nav .logo {
-    line-height: 100px;
+    line-height: 80px;
     color: $mywhite;
     font-size: 28px;
     font-weight: 700;
@@ -199,7 +199,7 @@
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
     opacity: 1;
     display: block;
-    background: $mywhite;
+    background: $transmenu;
     color: $myyellow !important;
     padding-left: 20px;
     height: 40px;
@@ -215,7 +215,7 @@
 }
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
-    background: $mywhite;
+    background: $transmenu;
     color: $myyellow!important;
     padding-left: 25px;
 }
@@ -371,7 +371,7 @@
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: $myblack;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -382,9 +382,9 @@
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: $mywhite;
     padding: 0px 15px;
-    height: 100px;
+    height: 80px;
     box-shadow: none;
     text-align: center;
   }
@@ -392,7 +392,7 @@
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -411,15 +411,15 @@
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid $mywhite;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
     background: $mywhite;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid $mywhite;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -432,7 +432,7 @@
     color: $myyellow !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: $mywhite !important;
     color: $myyellow!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -458,9 +458,9 @@
     height: auto;
   }
   .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
+    color: $mywhite;
     right: 30px;
-    font-size: 14px;
+    font-size: 16px;
     top: 15px;
   }
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {

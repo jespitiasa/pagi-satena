@@ -7,7 +7,7 @@
                     <!-- ***** Logo Start ***** -->
                     <a href="" class="logo">
                         <picture>
-                            <img width="50%" class="logo-satena responsive img-fluid" src="resources/img/logo/logo-satena/original/logo-satena-original.svg" alt="">
+                            <img width="50%" class="logo-satena responsive img-fluid" src="assets/resources/img/logo/logo-satena/original/logo-satena-original.svg" alt="">
                         </picture>
                     </a>
                     <!-- ***** Logo End ***** -->

@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-sm-8">
                 <div class="left-content">
                     <picture>
-                        <img class="logo-gov responsive img-fluid" src="resources/img/logo/logo_organizaciones_gubernamentales/govco/channels-616_header_govco.png" alt="">
+                        <img class="logo-gov responsive img-fluid" src="assets/resources/img/logo/logo_organizaciones_gubernamentales/govco/channels-616_header_govco.png" alt="">
                     </picture>
                 </div>
             </div>

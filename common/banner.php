@@ -1,7 +1,7 @@
 <!-- ***** Main Banner Area Start ***** -->
 <section class="section main-banner" id="top" data-section="section1">
     <picture>
-        <img src="resources/img/slider/ciudad-6180006.jpeg" alt="">
+        <img src="assets/resources/img/slider/ciudad-6180006.jpeg" alt="">
     </picture>
     <!-- <video autoplay muted loop id="bg-video">
         <source src="assets/images/course-video.mp4" type="video/mp4" />
@@ -20,6 +20,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
