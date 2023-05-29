@@ -10,12 +10,12 @@
         require_once("common/head.php");
     ?>
 </head>
-
 <body>
     <!-- LLamado de los header's y aviso -->
     <?php
     require_once("common/subheader.php");
     require_once("common/header.php");
+    require_once("common/alertify.php");
     ?>
     <main>
         <?php

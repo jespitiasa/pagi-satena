@@ -1,0 +1,42 @@
+
+@import 'variables';
+
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    margin:auto;
+    text-align: center;
+}
+.alert {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 2px 2px;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.alert-dismissible .close {
+    position: absolute;
+    right: 0;
+    color: inherit;
+}
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: $myblack;
+    text-shadow: 0 1px 0 $mywhite;
+    opacity: .5;
+}
