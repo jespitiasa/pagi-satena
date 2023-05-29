@@ -20,7 +20,7 @@
     <main>
         <?php
         require_once("common/banner.php");
-        // require_once("common/booking.php");
+        require_once("common/booking.php");
         require_once("common/product-card.php");
         ?>
     </main>
